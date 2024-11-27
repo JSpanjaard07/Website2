@@ -1,0 +1,90 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-color: #3F0031;
+    height: 100px;
+    width: 100%;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.emptypfp {
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.links {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.lightmode {
+    margin-right: 10px;
+}
+
+.light-head {
+    background-color: #C137A3;
+    height: 100px;
+    width: 100%;
+}
+
+.dark-home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9C608A;
+    height: 800px;
+    width: 100%;
+}
+
+.imgdiv {
+    height: 450px;
+    width: 350px;
+    background-color: gray;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-bottom: 240px;
+}
+
+.home-text-div {
+    font-size: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.portfolio-text {
+    font-size: 70px;
+}
+
+.emptydiv {
+    height: 450px;
+    width: 350px;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-bottom: 240px;
+}
