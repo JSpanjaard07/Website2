@@ -360,6 +360,11 @@ body {
         align-items: center;
         height: 600px;
     }
+    .light-home {
+        flex-direction: column;
+        align-items: center;
+        height: 600px;
+    }
     .home-text-div {
         font-size: 25px;
         margin-top: -240px;
@@ -377,7 +382,15 @@ body {
     .contactbody {
         height: 400px;
     }
+    .light-contactbody {
+        height: 400px;
+    }
     .contacttext {
+        font-size: 30px;
+        width: 100%;
+        height: 70%;
+    }
+    .light-contacttext {
         font-size: 30px;
         width: 100%;
         height: 70%;
@@ -390,7 +403,11 @@ body {
 
     .lidl-box {
         height: 130px;
-        width: 400px;
+        width: 100%;
+    }
+    .light-lidl-box {
+        height: 130px;
+        width: 100%;
     }
 
     .lidl-text {
@@ -415,6 +432,10 @@ body {
         height: 500px;
         justify-content: space-between;
     }
+    .light-projects-first {
+        height: 500px;
+        justify-content: space-between;
+    }
     .images-box {
         height: 100%;
         width: 350px;
@@ -428,6 +449,30 @@ body {
     .RocWobsite {
         height: 175px;
         width: 150px;
+    }
+
+    /* Voor de PinkGoose Page:  */
+
+
+    .gooseBox {
+        flex-direction: column;
+        align-items: center;
+    }
+    .informationBox {
+        height: 600px;
+        width: 200px;
+    }
+    .designerBox {
+        font-size: 15px;
+        width: 300px;
+        height: 200px;
+    }
+    .spacing {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .fixerText {
+        margin-top: 0;
     }
 
     
