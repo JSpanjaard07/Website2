@@ -1,9 +1,15 @@
+/* CSS voor mijn Portfolio */
+
+
+/* Nodig voor het begin van de website: */
+
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-
 }
+
+/* Nodig voor de header/nav bar: */
 
 header {
     background-color: #3F0031;
@@ -47,6 +53,8 @@ nav {
 .light-head {
     background-color: #C137A3;
 }
+
+/* Voor de landing page: */
 
 .dark-home {
     display: flex;
@@ -97,6 +105,8 @@ nav {
     margin-bottom: 240px;
 }
 
+/* Voor de footer: */
+
 .dark-foot {
     background-color: #3F0031;
     display: flex;
@@ -112,6 +122,8 @@ nav {
     align-items: center;
     justify-content: center;
 }
+
+/* Voor de contact page: */
 
 .contactbody {
     height: 800px;
@@ -163,6 +175,8 @@ nav {
     align-items: center;
 }
 
+/* Font en Ul setup voor betere links: */
+
 body {
     font-family: 'Itim';
 }
@@ -175,6 +189,8 @@ body {
     height: 20px;
     width: 300px;
 }
+
+/* Voor about me page: */
 
 .lidl-box {
     height: 380px;
@@ -219,6 +235,8 @@ body {
     display: flex;
     flex-direction: row;
 }
+
+/* Voor de projects page: */
 
 .projects-first {
     background-color: #9C608A;
@@ -271,6 +289,8 @@ body {
     margin-left: 100px;
 }
 
+/* Voor informatie over mijn projecten:  */
+
 .informationBox {
     color: #ffffff;
     display: flex;
@@ -308,3 +328,62 @@ body {
 .light-background {
     background-color: #DC9FCA;
 }
+
+/* Responsiveness */
+
+@media only screen and (max-width: 600px) {
+
+    /* Voor de Nav Bar: */
+
+    .ul {
+        font-size: 10px;
+    }
+    .links {
+        justify-content: space-between;
+        width: 60%;
+    }
+    .lightmode {
+        height: 50px;
+        width: 50px;
+        margin-top: 20px;
+    }
+    .emptypfp {
+        height: 50px;
+        width: 50px;
+        margin-top: 20px;
+    }
+
+    /* Voor de landing page: */
+
+    .dark-home {
+        flex-direction: column;
+        align-items: center;
+        height: 600px;
+    }
+    .home-text-div {
+        font-size: 25px;
+        margin-top: -240px;
+    }
+    .portfolio-text {
+        font-size: 25px;
+    }
+    .imgdiv {
+        margin-right: 35px;
+        margin-top: 10px;
+    }
+
+    /* Voor de contact page: */
+
+    .contactbody {
+        height: 400px;
+    }
+    .contacttext {
+        font-size: 30px;
+        width: 100%;
+        height: 70%;
+    }
+    .mail {
+        font-size: 30px;
+    }
+    
+  }
