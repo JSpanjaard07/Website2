@@ -385,5 +385,50 @@ body {
     .mail {
         font-size: 30px;
     }
+
+    /* Voor de About Page: */
+
+    .lidl-box {
+        height: 130px;
+        width: 400px;
+    }
+
+    .lidl-text {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .lidl-icon {
+        margin-top: 10px;
+        width: 100px;
+        height: 100px;
+    }
+    .roc-icon {
+        margin-top: 10px;
+        width: 100px;
+        height: 100px;
+    }
+
+    /* Voor de Projects Page:  */
+
+
+    .projects-first {
+        height: 500px;
+        justify-content: space-between;
+    }
+    .images-box {
+        height: 100%;
+        width: 350px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .pinkGoose {
+        height: 175px;
+        width: 150px;
+    }
+    .RocWobsite {
+        height: 175px;
+        width: 150px;
+    }
+
     
   }
