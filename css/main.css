@@ -215,6 +215,16 @@ ul {
     height: 600px;
 }
 
+.flex-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-font {
+    color: #ffffff;
+    font-size: 60px;
+}
+
 .pinkGoose {
     height: 510px;
     width: 410px;
@@ -265,6 +275,10 @@ ul {
     height: 100px;
 }
 
+.pink-goose-sizing {
+    width: 400px;
+}
+
 .gooseText {
     width: 100px;
 }
@@ -272,6 +286,10 @@ ul {
 .fixerText {
     height: 200px;
     margin-top: 10px;
+}
+
+.small-margin {
+    margin-left: 20px;
 }
 
 /* Voor de kleuren */
