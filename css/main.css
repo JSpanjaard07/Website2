@@ -30,6 +30,8 @@ main {
     width: 100%;
 }
 
+/* Dit gebruik ik voor de lege profiel foto die ik met php zal kunnen gebruiken om in te loggen */
+
 .emptypfp {
     height: 80px;
     width: 80px;
@@ -50,6 +52,8 @@ main {
     text-decoration: none;
     color: #ffffff;
 }
+
+/* voor de light mode png/link */
 
 .lightmode {
     margin-right: 10px;
@@ -85,6 +89,8 @@ main {
 .portfolio-text {
     font-size: 70px;
 }
+
+/* kreeg dit probleem niet gefixt zonder een lege div */
 
 .emptydiv {
     height: 450px;
@@ -141,7 +147,7 @@ body {
     font-family: 'Itim';
 }
 
-.ul {
+ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -214,7 +220,7 @@ body {
     width: 410px;
 }
 
-.RocWobsite {
+.RocWebsite {
     height: 360px;
     width: 540px;
 }
