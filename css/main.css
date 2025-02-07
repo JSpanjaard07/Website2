@@ -25,6 +25,11 @@ nav {
     justify-content: space-between;
 }
 
+main {
+    height: 800px;
+    width: 100%;
+}
+
 .emptypfp {
     height: 80px;
     width: 80px;
@@ -56,24 +61,12 @@ nav {
 
 /* Voor de landing page: */
 
-.dark-home {
+.home {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: #9C608A;
-    height: 800px;
-    width: 100%;
-}
-
-.light-home {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #DC9FCA;
-    height: 800px;
-    width: 100%;
 }
 
 .imgdiv {
@@ -192,9 +185,13 @@ body {
 
 /* Voor about me page: */
 
+.about-sizing {
+    height: 1140px;
+}
+
 .lidl-box {
     height: 380px;
-    width: 1360px;
+    width: 1345px;
     border-radius: 10px;
     background-color: #9C608A;
     border: 3px solid #ffffff;
@@ -327,6 +324,16 @@ body {
 
 .light-background {
     background-color: #DC9FCA;
+}
+
+/* Voor de kleuren */
+
+.light {
+    background-color: #DC9FCA;
+}
+
+.bright {
+    background-color: #C137A3;
 }
 
 /* Responsiveness */
