@@ -55,10 +55,6 @@ main {
     margin-right: 10px;
 }
 
-.light-head {
-    background-color: #C137A3;
-}
-
 /* Voor de landing page: */
 
 .home {
@@ -139,27 +135,6 @@ main {
     font-size: 50px;
 }
 
-.light-contactbody {
-    height: 800px;
-    width: 100%;
-    background-color: #DC9FCA;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.light-contacttext {
-    height: 500px;
-    width: 1000px;
-    background-color: #C137A3;
-    border-radius: 10px;
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    font-size: 70px;
-    align-items: center;
-}
-
 /* Font en Ul setup voor betere links: */
 
 body {
@@ -212,17 +187,6 @@ body {
     margin-left: 25px;
     width: 320px;
     height: 200px;
-}
-
-.light-lidl-box {
-    height: 380px;
-    width: 1360px;
-    border-radius: 10px;
-    background-color: #C137A3;
-    border: 3px solid #ffffff;
-    border-width: 5px;
-    display: flex;
-    flex-direction: row;
 }
 
 /* Voor de projects page: */
