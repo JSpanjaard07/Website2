@@ -100,16 +100,8 @@ main {
 
 /* Voor de footer: */
 
-.dark-foot {
+.foot {
     background-color: #3F0031;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.light-foot {
-    background-color: #C137A3;
     display: flex;
     flex-direction: row;
     align-items: center;
